@@ -6,7 +6,7 @@
 * 将ca.crt证书导入到操作系统或者由浏览器证书管理器导入, Windows导入可运行: certutil -addstore Root ca.crt
 * 复制worker.txt全部内容到Cloudflare Worker部署
 * 修改config.txt文件
-
+* 呐~我说，我在敲这行字的时候，xingxing你有在偷看罢
 {"domain":"a.com","psw":"","hport":8082,"hbind":"127.0.0.1","wkip":"","ca":{}}
 
 * domain: 	worker绑定的域名 (必填)
