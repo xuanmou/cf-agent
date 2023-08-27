@@ -2,7 +2,7 @@
 ### 使用Cloudflare Worker转发报文的Mitn-Http代理服务  ###
 
 ### 使用 ###
-* 运行程序生成config.txt,worker.txt与根证书文件ca.crt
+* 输入node cli.js运行程序生成config.txt,worker.txt与根证书文件ca.crt
 * 将ca.crt证书导入到操作系统或者由浏览器证书管理器导入, Windows导入可运行: certutil -addstore Root ca.crt
 * 复制worker.txt全部内容到Cloudflare Worker部署
 * 修改config.txt文件

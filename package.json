@@ -7,6 +7,12 @@
   "repository": {"type":"git", "url":"git+https://github.com/xuanmou/cf-agent.git"},
   "bugs": { "url": "https://github.com/xuanmou/cf-agent/issues" },
   "homepage": "https://github.com/xuanmou/cf-agent#readme",
+  "pkg": {
+    "assets": [
+        "views/**/*"
+    ],
+    "output": "dist"
+},
   "dependencies": {
     "cajs": "^1.1.0"
   },
