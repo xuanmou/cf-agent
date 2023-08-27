@@ -4,9 +4,9 @@
   "bin": "cli.js",
   "keywords": [ "proxy", "http-proxy", "serverless", "cloudflare", "worker" ],
   "author": "free-gx",
-  "repository": {"type":"git", "url":"git+https://github.com/free-gx/cf-agent.git"},
-  "bugs": { "url": "https://github.com/free-gx/cf-agent/issues" },
-  "homepage": "https://github.com/free-gx/cf-agent#readme",
+  "repository": {"type":"git", "url":"git+https://github.com/xuanmou/cf-agent.git"},
+  "bugs": { "url": "https://github.com/xuanmou/cf-agent/issues" },
+  "homepage": "https://github.com/xuanmou/cf-agent#readme",
   "dependencies": {
     "cajs": "^1.1.0"
   },
